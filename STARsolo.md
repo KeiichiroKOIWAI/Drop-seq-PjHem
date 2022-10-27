@@ -1,6 +1,7 @@
 ## Downloads geneome sequence
 For P. japonicus
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/017/312/705/GCF_017312705.1_Mj_TUMSAT_v1.0/GCF_017312705.1_Mj_TUMSAT_v1.0_genomic.fna.gz
+
 For WSSV
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/848/085/GCF_000848085.2_ViralProj14616/GCF_000848085.2_ViralProj14616_genomic.fna.gz
 combined two genome fasta files into one file.
