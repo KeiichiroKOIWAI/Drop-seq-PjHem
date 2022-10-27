@@ -5,7 +5,7 @@ Here, I uploaded commads used on this paper.
 The data have been deposited with links to BioProject accession number PRJDBXXXXXXX in the DDBJ BioProject database.
 
 ## Command lines for Drop-seq analysis of shrimp hemocytes
-[command link](https://github.com/KeiichiroKOIWAI/Drop-seq_on_shrimp/blob/main/linux_commandlines/Drop-seq_analysis_on_shrimp.md)   
+[command link](https://github.com/KeiichiroKOIWAI/Drop-seq-PjHem/blob/main/STARsolo.md)   
 
 The raw sequence data used in this study were archived in DDBJ Sequence Read Archive (DRA) of the DNA Data Bank of Japan: Drop-seq shrimp (healty) rep1: DRAXXXXX, shrimp  (healty) rep2: DRAXXXXXX, shrimp (healty)  rep3: DRAXXXXXXXX. 
 
