@@ -1,5 +1,22 @@
-## Creation of Sequence Dictionary
+## Downloads geneome sequence
+For P. japonicus
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/017/312/705/GCF_017312705.1_Mj_TUMSAT_v1.0/GCF_017312705.1_Mj_TUMSAT_v1.0_genomic.fna.gz
+For WSSV
+https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/848/085/GCF_000848085.2_ViralProj14616/GCF_000848085.2_ViralProj14616_genomic.fna.gz
+combined two genome fasta files into one file.
 
+## Creation of STAR index
+```
+STAR \
+--runThreadN 40 \
+--runMode genomeGenerate \
+--genomeDir Dir_to_genome \
+--genomeFastaFiles file_of_genome \
+--sjdbGTFfeatureExon exon \
+--sjdbGTFfile PjWSSV.gtf
+```
+
+## Mapping against genome sequence and count UMIs/Genes by STARsolo
 ```
 STAR \
 --runThreadN X \
