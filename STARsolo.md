@@ -6,10 +6,12 @@ For WSSV
 https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/848/085/GCF_000848085.2_ViralProj14616/GCF_000848085.2_ViralProj14616_genomic.fna.gz
 combined two genome fasta files into one file.
 
+or use [this gtf file](https://github.com/KeiichiroKOIWAI/Drop-seq-PjHem/blob/main/PjWSSV.gtf.tar.gz).
+
 ## Creation of STAR index
 ```
 STAR \
---runThreadN 40 \
+--runThreadN X \
 --runMode genomeGenerate \
 --genomeDir Dir_to_genome \
 --genomeFastaFiles file_of_genome \
